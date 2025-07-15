@@ -46,7 +46,7 @@ It verifies page navigation, titles, URLs, and key page content across **18 diff
 ---
 
 ## 📁 Project Structure
-
+```
 stc_research_automation/
 │
 ├── src/
@@ -85,7 +85,7 @@ stc_research_automation/
 ├── testng-regression.xml # Regression test suite
 ├── test-output/ # TestNG default reports + screenshots
 └── target/
-
+```
 
 ---
 
@@ -121,14 +121,6 @@ Selenium Automation Tester
 
 ---
 
-## 📌 Notes
-
-- The project does **not use Extent Reports**.
-- Designed for portfolio/demo purposes with clean, beginner-friendly code.
-- Follows modular principles with reusability and clarity in mind.
-- Can be extended to include Page Object Model (POM), CI/CD, or advanced reporting.
-
----
 
 
 
