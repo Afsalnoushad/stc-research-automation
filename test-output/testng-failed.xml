@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke Test(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="stthomas.stc_research_automation.tests.ResearchProgrammes">
+        <methods>
+          <include name="verifyInvitedSpeakersSection"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- stthomas.stc_research_automation.tests.ResearchProgrammes -->
+      <class name="stthomas.stc_research_automation.tests.ResearchRegulations">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyDirectorateOfResearchLink"/>
+        </methods>
+      </class> <!-- stthomas.stc_research_automation.tests.ResearchRegulations -->
+      <class name="stthomas.stc_research_automation.tests.ResearchCentres">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ResearchCentres_DataCaptureLink"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- stthomas.stc_research_automation.tests.ResearchCentres -->
+      <class name="stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte">
+        <methods>
+          <include name="tearDown"/>
+          <include name="navigateToResearchAdvisoryCommittee"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

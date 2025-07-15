@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="65" passed="60" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-15T13:17:50 IST" name="Suite" finished-at="2025-07-15T13:51:40 IST" duration-ms="2030045">
+    <groups>
+      <group name="regression">
+        <method signature="AboutRAC.verifyAboutPageTitle()[pri:1, instance:stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2]" name="verifyAboutPageTitle" class="stthomas.stc_research_automation.tests.AboutRAC"/>
+        <method signature="AnnualResearchReports.navigateToAnnualResearchReportSection()[pri:1, instance:stthomas.stc_research_automation.tests.AnnualResearchReports@66d18979]" name="navigateToAnnualResearchReportSection" class="stthomas.stc_research_automation.tests.AnnualResearchReports"/>
+        <method signature="AwardsAndFellowships.navigateToAwardsAndFellowshipsPage()[pri:1, instance:stthomas.stc_research_automation.tests.AwardsAndFellowships@17f7cd29]" name="navigateToAwardsAndFellowshipsPage" class="stthomas.stc_research_automation.tests.AwardsAndFellowships"/>
+        <method signature="CollaborativeResearch.navigateToCollaborativeResearch()[pri:1, instance:stthomas.stc_research_automation.tests.CollaborativeResearch@305b7c14]" name="navigateToCollaborativeResearch" class="stthomas.stc_research_automation.tests.CollaborativeResearch"/>
+        <method signature="Consultancy.navigateToConsultancy()[pri:1, instance:stthomas.stc_research_automation.tests.Consultancy@c0c2f8d]" name="navigateToConsultancy" class="stthomas.stc_research_automation.tests.Consultancy"/>
+        <method signature="Journals.navigateToJournalsSection()[pri:1, instance:stthomas.stc_research_automation.tests.Journals@bccb269]" name="navigateToJournalsSection" class="stthomas.stc_research_automation.tests.Journals"/>
+        <method signature="PhdRegulationsAndUo.navigateToPhdRegPage()[pri:1, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" name="navigateToPhdRegPage" class="stthomas.stc_research_automation.tests.PhdRegulationsAndUo"/>
+        <method signature="RacMembers.navigateToResearchCouncilMembers()[pri:1, instance:stthomas.stc_research_automation.tests.RacMembers@ae13544]" name="navigateToResearchCouncilMembers" class="stthomas.stc_research_automation.tests.RacMembers"/>
+        <method signature="RandPEthics2020.verifyEthics2020Navigation()[pri:1, instance:stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8]" name="verifyEthics2020Navigation" class="stthomas.stc_research_automation.tests.RandPEthics2020"/>
+        <method signature="RandPEthics2021.verifyResearchRegulationsPage()[pri:1, instance:stthomas.stc_research_automation.tests.RandPEthics2021@63475ace]" name="verifyResearchRegulationsPage" class="stthomas.stc_research_automation.tests.RandPEthics2021"/>
+        <method signature="ResearchAdvisoryCommitte.navigateToResearchAdvisoryCommittee()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte@587e5365]" name="navigateToResearchAdvisoryCommittee" class="stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte"/>
+        <method signature="ResearchCentres.navigateToResearchCentres()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchCentres@3d34d211]" name="navigateToResearchCentres" class="stthomas.stc_research_automation.tests.ResearchCentres"/>
+        <method signature="ResearchEthics.navigateToResearchEthics()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchEthics@2de23121]" name="navigateToResearchEthics" class="stthomas.stc_research_automation.tests.ResearchEthics"/>
+        <method signature="ResearchHighlight.navigateToResearchHighlights()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchHighlight@609cd4d8]" name="navigateToResearchHighlights" class="stthomas.stc_research_automation.tests.ResearchHighlight"/>
+        <method signature="ResearchPolicies.verifyResearchPoliciesPage()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchPolicies@43c1b556]" name="verifyResearchPoliciesPage" class="stthomas.stc_research_automation.tests.ResearchPolicies"/>
+        <method signature="ResearchProgrammes.verifyResearchProgrammes()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchProgrammes@22fcf7ab]" name="verifyResearchProgrammes" class="stthomas.stc_research_automation.tests.ResearchProgrammes"/>
+        <method signature="ResearchProjects.verifyResearchProjectsSection()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchProjects@6913c1fb]" name="verifyResearchProjectsSection" class="stthomas.stc_research_automation.tests.ResearchProjects"/>
+        <method signature="ResearchRegulations.verifyResearchRegulationsPage()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchRegulations@4009e306]" name="verifyResearchRegulationsPage" class="stthomas.stc_research_automation.tests.ResearchRegulations"/>
+        <method signature="AboutRAC.verifyResearchCouncilNavigation()[pri:2, instance:stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2]" name="verifyResearchCouncilNavigation" class="stthomas.stc_research_automation.tests.AboutRAC"/>
+        <method signature="AnnualResearchReports.openAllAnnualResearchReports()[pri:2, instance:stthomas.stc_research_automation.tests.AnnualResearchReports@66d18979]" name="openAllAnnualResearchReports" class="stthomas.stc_research_automation.tests.AnnualResearchReports"/>
+        <method signature="AwardsAndFellowships.verifyPaginationControls()[pri:2, instance:stthomas.stc_research_automation.tests.AwardsAndFellowships@17f7cd29]" name="verifyPaginationControls" class="stthomas.stc_research_automation.tests.AwardsAndFellowships"/>
+        <method signature="CollaborativeResearch.verifyCollaborativeResearchLinks()[pri:2, instance:stthomas.stc_research_automation.tests.CollaborativeResearch@305b7c14]" name="verifyCollaborativeResearchLinks" class="stthomas.stc_research_automation.tests.CollaborativeResearch"/>
+        <method signature="Consultancy.handleConsultancyDocuments()[pri:2, instance:stthomas.stc_research_automation.tests.Consultancy@c0c2f8d]" name="handleConsultancyDocuments" class="stthomas.stc_research_automation.tests.Consultancy"/>
+        <method signature="Journals.viewJournalHomePageAndReturn()[pri:2, instance:stthomas.stc_research_automation.tests.Journals@bccb269]" name="viewJournalHomePageAndReturn" class="stthomas.stc_research_automation.tests.Journals"/>
+        <method signature="PhdRegulationsAndUo.verifyDirectorateOfAdmissionLink()[pri:2, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" name="verifyDirectorateOfAdmissionLink" class="stthomas.stc_research_automation.tests.PhdRegulationsAndUo"/>
+        <method signature="RacMembers.scrollAndVerifyCouncilMembersContent()[pri:2, instance:stthomas.stc_research_automation.tests.RacMembers@ae13544]" name="scrollAndVerifyCouncilMembersContent" class="stthomas.stc_research_automation.tests.RacMembers"/>
+        <method signature="RandPEthics2020.verifyEthics2020VideoPlayback()[pri:2, instance:stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8]" name="verifyEthics2020VideoPlayback" class="stthomas.stc_research_automation.tests.RandPEthics2020"/>
+        <method signature="RandPEthics2021.verifyBrochureLink()[pri:2, instance:stthomas.stc_research_automation.tests.RandPEthics2021@63475ace]" name="verifyBrochureLink" class="stthomas.stc_research_automation.tests.RandPEthics2021"/>
+        <method signature="ResearchCentres.ResearchCentres_DepartmentTabs()[pri:2, instance:stthomas.stc_research_automation.tests.ResearchCentres@3d34d211]" name="ResearchCentres_DepartmentTabs" class="stthomas.stc_research_automation.tests.ResearchCentres"/>
+        <method signature="ResearchEthics.scrollAndValidateResearchEthicsPDF()[pri:2, instance:stthomas.stc_research_automation.tests.ResearchEthics@2de23121]" name="scrollAndValidateResearchEthicsPDF" class="stthomas.stc_research_automation.tests.ResearchEthics"/>
+        <method signature="ResearchHighlight.verifyResearchHighlightLinks()[pri:2, instance:stthomas.stc_research_automation.tests.ResearchHighlight@609cd4d8]" name="verifyResearchHighlightLinks" class="stthomas.stc_research_automation.tests.ResearchHighlight"/>
+        <method signature="ResearchPolicies.clickResearchPolicyLinks()[pri:2, instance:stthomas.stc_research_automation.tests.ResearchPolicies@43c1b556]" name="clickResearchPolicyLinks" class="stthomas.stc_research_automation.tests.ResearchPolicies"/>
+        <method signature="ResearchProjects.VerifyAllDownloadLinks()[pri:2, instance:stthomas.stc_research_automation.tests.ResearchProjects@6913c1fb]" name="VerifyAllDownloadLinks" class="stthomas.stc_research_automation.tests.ResearchProjects"/>
+        <method signature="ResearchRegulations.verifyDirectorateOfResearchLink()[pri:2, instance:stthomas.stc_research_automation.tests.ResearchRegulations@4009e306]" name="verifyDirectorateOfResearchLink" class="stthomas.stc_research_automation.tests.ResearchRegulations"/>
+        <method signature="AboutRAC.verifyPhdPageNavigation()[pri:3, instance:stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2]" name="verifyPhdPageNavigation" class="stthomas.stc_research_automation.tests.AboutRAC"/>
+        <method signature="AwardsAndFellowships.verifyLinkNavigationAndBack()[pri:3, instance:stthomas.stc_research_automation.tests.AwardsAndFellowships@17f7cd29]" name="verifyLinkNavigationAndBack" class="stthomas.stc_research_automation.tests.AwardsAndFellowships"/>
+        <method signature="CollaborativeResearch.verifyCollaborativeResearchImages()[pri:3, instance:stthomas.stc_research_automation.tests.CollaborativeResearch@305b7c14]" name="verifyCollaborativeResearchImages" class="stthomas.stc_research_automation.tests.CollaborativeResearch"/>
+        <method signature="Journals.verifyJournalVolumes()[pri:3, instance:stthomas.stc_research_automation.tests.Journals@bccb269]" name="verifyJournalVolumes" class="stthomas.stc_research_automation.tests.Journals"/>
+        <method signature="PhdRegulationsAndUo.verifyImportantLinksSetOne()[pri:3, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" name="verifyImportantLinksSetOne" class="stthomas.stc_research_automation.tests.PhdRegulationsAndUo"/>
+        <method signature="RandPEthics2020.verifyEthics2020Links()[pri:3, instance:stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8]" name="verifyEthics2020Links" class="stthomas.stc_research_automation.tests.RandPEthics2020"/>
+        <method signature="RandPEthics2021.verifyDirectorateOfResearchLink()[pri:3, instance:stthomas.stc_research_automation.tests.RandPEthics2021@63475ace]" name="verifyDirectorateOfResearchLink" class="stthomas.stc_research_automation.tests.RandPEthics2021"/>
+        <method signature="ResearchCentres.ResearchCentres_ComputerScienceVisit()[pri:3, instance:stthomas.stc_research_automation.tests.ResearchCentres@3d34d211]" name="ResearchCentres_ComputerScienceVisit" class="stthomas.stc_research_automation.tests.ResearchCentres"/>
+        <method signature="ResearchHighlight.verifyResearchHighlightImageSection()[pri:3, instance:stthomas.stc_research_automation.tests.ResearchHighlight@609cd4d8]" name="verifyResearchHighlightImageSection" class="stthomas.stc_research_automation.tests.ResearchHighlight"/>
+        <method signature="ResearchProgrammes.checkPaginationControls()[pri:3, instance:stthomas.stc_research_automation.tests.ResearchProgrammes@22fcf7ab]" name="checkPaginationControls" class="stthomas.stc_research_automation.tests.ResearchProgrammes"/>
+        <method signature="ResearchProjects.VerifyAllRedirectLinks()[pri:3, instance:stthomas.stc_research_automation.tests.ResearchProjects@6913c1fb]" name="VerifyAllRedirectLinks" class="stthomas.stc_research_automation.tests.ResearchProjects"/>
+        <method signature="ResearchRegulations.verifyCircularsAndOrdersLink()[pri:3, instance:stthomas.stc_research_automation.tests.ResearchRegulations@4009e306]" name="verifyCircularsAndOrdersLink" class="stthomas.stc_research_automation.tests.ResearchRegulations"/>
+        <method signature="AboutRAC.verifyPhdAwardeesSections()[pri:4, instance:stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2]" name="verifyPhdAwardeesSections" class="stthomas.stc_research_automation.tests.AboutRAC"/>
+        <method signature="PhdRegulationsAndUo.verifyPdfOpeningTable1()[pri:4, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" name="verifyPdfOpeningTable1" class="stthomas.stc_research_automation.tests.PhdRegulationsAndUo"/>
+        <method signature="RandPEthics2020.verifyEthics2020WindowSwitchLink()[pri:4, instance:stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8]" name="verifyEthics2020WindowSwitchLink" class="stthomas.stc_research_automation.tests.RandPEthics2020"/>
+        <method signature="RandPEthics2021.verifyCircularsAndOrdersLink()[pri:4, instance:stthomas.stc_research_automation.tests.RandPEthics2021@63475ace]" name="verifyCircularsAndOrdersLink" class="stthomas.stc_research_automation.tests.RandPEthics2021"/>
+        <method signature="ResearchCentres.ResearchCentres_ResearchGuideScholarSections()[pri:4, instance:stthomas.stc_research_automation.tests.ResearchCentres@3d34d211]" name="ResearchCentres_ResearchGuideScholarSections" class="stthomas.stc_research_automation.tests.ResearchCentres"/>
+        <method signature="ResearchHighlight.verifyResearchHighlightPagination()[pri:4, instance:stthomas.stc_research_automation.tests.ResearchHighlight@609cd4d8]" name="verifyResearchHighlightPagination" class="stthomas.stc_research_automation.tests.ResearchHighlight"/>
+        <method signature="ResearchProgrammes.verifyInvitedSpeakersSection()[pri:4, instance:stthomas.stc_research_automation.tests.ResearchProgrammes@22fcf7ab]" name="verifyInvitedSpeakersSection" class="stthomas.stc_research_automation.tests.ResearchProgrammes"/>
+        <method signature="ResearchProgrammes.verifyTableSection()[pri:4, instance:stthomas.stc_research_automation.tests.ResearchProgrammes@22fcf7ab]" name="verifyTableSection" class="stthomas.stc_research_automation.tests.ResearchProgrammes"/>
+        <method signature="ResearchProjects.VerifyResearchProjectTable()[pri:4, instance:stthomas.stc_research_automation.tests.ResearchProjects@6913c1fb]" name="VerifyResearchProjectTable" class="stthomas.stc_research_automation.tests.ResearchProjects"/>
+        <method signature="ResearchRegulations.verifyPlagiarismAndRegulationFiles()[pri:4, instance:stthomas.stc_research_automation.tests.ResearchRegulations@4009e306]" name="verifyPlagiarismAndRegulationFiles" class="stthomas.stc_research_automation.tests.ResearchRegulations"/>
+        <method signature="AboutRAC.verifyDirectorateOfResearchLink()[pri:5, instance:stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2]" name="verifyDirectorateOfResearchLink" class="stthomas.stc_research_automation.tests.AboutRAC"/>
+        <method signature="PhdRegulationsAndUo.verifySecondLinkSet()[pri:5, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" name="verifySecondLinkSet" class="stthomas.stc_research_automation.tests.PhdRegulationsAndUo"/>
+        <method signature="RandPEthics2020.verifyEthics2020FinalDocuments()[pri:5, instance:stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8]" name="verifyEthics2020FinalDocuments" class="stthomas.stc_research_automation.tests.RandPEthics2020"/>
+        <method signature="ResearchCentres.ResearchCentres_DataCaptureLink()[pri:5, instance:stthomas.stc_research_automation.tests.ResearchCentres@3d34d211]" name="ResearchCentres_DataCaptureLink" class="stthomas.stc_research_automation.tests.ResearchCentres"/>
+        <method signature="ResearchRegulations.verifyAnnualResearchReportNavigation()[pri:5, instance:stthomas.stc_research_automation.tests.ResearchRegulations@4009e306]" name="verifyAnnualResearchReportNavigation" class="stthomas.stc_research_automation.tests.ResearchRegulations"/>
+        <method signature="AboutRAC.verifyAnnualResearchReports()[pri:6, instance:stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2]" name="verifyAnnualResearchReports" class="stthomas.stc_research_automation.tests.AboutRAC"/>
+        <method signature="PhdRegulationsAndUo.verifyPdfOpeningTable2()[pri:6, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" name="verifyPdfOpeningTable2" class="stthomas.stc_research_automation.tests.PhdRegulationsAndUo"/>
+        <method signature="PhdRegulationsAndUo.verifyRemainingLinks()[pri:7, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" name="verifyRemainingLinks" class="stthomas.stc_research_automation.tests.PhdRegulationsAndUo"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AboutRAC.verifyAboutPageTitle()[pri:1, instance:stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2]" name="verifyAboutPageTitle" class="stthomas.stc_research_automation.tests.AboutRAC"/>
+        <method signature="AnnualResearchReports.navigateToAnnualResearchReportSection()[pri:1, instance:stthomas.stc_research_automation.tests.AnnualResearchReports@66d18979]" name="navigateToAnnualResearchReportSection" class="stthomas.stc_research_automation.tests.AnnualResearchReports"/>
+        <method signature="AwardsAndFellowships.navigateToAwardsAndFellowshipsPage()[pri:1, instance:stthomas.stc_research_automation.tests.AwardsAndFellowships@17f7cd29]" name="navigateToAwardsAndFellowshipsPage" class="stthomas.stc_research_automation.tests.AwardsAndFellowships"/>
+        <method signature="CollaborativeResearch.navigateToCollaborativeResearch()[pri:1, instance:stthomas.stc_research_automation.tests.CollaborativeResearch@305b7c14]" name="navigateToCollaborativeResearch" class="stthomas.stc_research_automation.tests.CollaborativeResearch"/>
+        <method signature="Consultancy.navigateToConsultancy()[pri:1, instance:stthomas.stc_research_automation.tests.Consultancy@c0c2f8d]" name="navigateToConsultancy" class="stthomas.stc_research_automation.tests.Consultancy"/>
+        <method signature="Journals.navigateToJournalsSection()[pri:1, instance:stthomas.stc_research_automation.tests.Journals@bccb269]" name="navigateToJournalsSection" class="stthomas.stc_research_automation.tests.Journals"/>
+        <method signature="PhdRegulationsAndUo.navigateToPhdRegPage()[pri:1, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" name="navigateToPhdRegPage" class="stthomas.stc_research_automation.tests.PhdRegulationsAndUo"/>
+        <method signature="RacMembers.navigateToResearchCouncilMembers()[pri:1, instance:stthomas.stc_research_automation.tests.RacMembers@ae13544]" name="navigateToResearchCouncilMembers" class="stthomas.stc_research_automation.tests.RacMembers"/>
+        <method signature="RandPEthics2020.verifyEthics2020Navigation()[pri:1, instance:stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8]" name="verifyEthics2020Navigation" class="stthomas.stc_research_automation.tests.RandPEthics2020"/>
+        <method signature="RandPEthics2021.verifyResearchRegulationsPage()[pri:1, instance:stthomas.stc_research_automation.tests.RandPEthics2021@63475ace]" name="verifyResearchRegulationsPage" class="stthomas.stc_research_automation.tests.RandPEthics2021"/>
+        <method signature="ResearchAdvisoryCommitte.navigateToResearchAdvisoryCommittee()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte@587e5365]" name="navigateToResearchAdvisoryCommittee" class="stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte"/>
+        <method signature="ResearchCentres.navigateToResearchCentres()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchCentres@3d34d211]" name="navigateToResearchCentres" class="stthomas.stc_research_automation.tests.ResearchCentres"/>
+        <method signature="ResearchEthics.navigateToResearchEthics()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchEthics@2de23121]" name="navigateToResearchEthics" class="stthomas.stc_research_automation.tests.ResearchEthics"/>
+        <method signature="ResearchHighlight.navigateToResearchHighlights()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchHighlight@609cd4d8]" name="navigateToResearchHighlights" class="stthomas.stc_research_automation.tests.ResearchHighlight"/>
+        <method signature="ResearchPolicies.verifyResearchPoliciesPage()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchPolicies@43c1b556]" name="verifyResearchPoliciesPage" class="stthomas.stc_research_automation.tests.ResearchPolicies"/>
+        <method signature="ResearchProgrammes.verifyResearchProgrammes()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchProgrammes@22fcf7ab]" name="verifyResearchProgrammes" class="stthomas.stc_research_automation.tests.ResearchProgrammes"/>
+        <method signature="ResearchProjects.verifyResearchProjectsSection()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchProjects@6913c1fb]" name="verifyResearchProjectsSection" class="stthomas.stc_research_automation.tests.ResearchProjects"/>
+        <method signature="ResearchRegulations.verifyResearchRegulationsPage()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchRegulations@4009e306]" name="verifyResearchRegulationsPage" class="stthomas.stc_research_automation.tests.ResearchRegulations"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-07-15T13:17:50 IST" name="Smoke Test" finished-at="2025-07-15T13:51:40 IST" duration-ms="2030045">
+      <class name="stthomas.stc_research_automation.tests.ResearchProjects">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchProjects@6913c1fb]" started-at="2025-07-15T13:34:59 IST" name="setup" finished-at="2025-07-15T13:35:04 IST" duration-ms="5127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyResearchProjectsSection()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchProjects@6913c1fb]" started-at="2025-07-15T13:35:04 IST" name="verifyResearchProjectsSection" description="Navigate to Research Projects section and verify title/url" finished-at="2025-07-15T13:35:07 IST" duration-ms="3010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResearchProjectsSection -->
+        <test-method signature="VerifyAllDownloadLinks()[pri:2, instance:stthomas.stc_research_automation.tests.ResearchProjects@6913c1fb]" started-at="2025-07-15T13:35:07 IST" name="VerifyAllDownloadLinks" description="Check download links under Research Projects" finished-at="2025-07-15T13:35:53 IST" duration-ms="45126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllDownloadLinks -->
+        <test-method signature="VerifyAllRedirectLinks()[pri:3, instance:stthomas.stc_research_automation.tests.ResearchProjects@6913c1fb]" started-at="2025-07-15T13:35:53 IST" name="VerifyAllRedirectLinks" description="Check redirection links under Research Projects" finished-at="2025-07-15T13:40:33 IST" duration-ms="280479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllRedirectLinks -->
+        <test-method signature="VerifyResearchProjectTable()[pri:4, instance:stthomas.stc_research_automation.tests.ResearchProjects@6913c1fb]" started-at="2025-07-15T13:40:33 IST" name="VerifyResearchProjectTable" description="Check Research Projects table functionality" finished-at="2025-07-15T13:40:48 IST" duration-ms="14969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyResearchProjectTable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchProjects@6913c1fb]" started-at="2025-07-15T13:40:48 IST" name="tearDown" finished-at="2025-07-15T13:40:48 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.ResearchProjects -->
+      <class name="stthomas.stc_research_automation.tests.ResearchCentres">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchCentres@3d34d211]" started-at="2025-07-15T13:19:13 IST" name="setup" finished-at="2025-07-15T13:19:18 IST" duration-ms="5231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToResearchCentres()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchCentres@3d34d211]" started-at="2025-07-15T13:19:18 IST" name="navigateToResearchCentres" description="Navigate to Research Centres Page and check title/url" finished-at="2025-07-15T13:19:21 IST" duration-ms="2817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToResearchCentres -->
+        <test-method signature="ResearchCentres_DepartmentTabs()[pri:2, instance:stthomas.stc_research_automation.tests.ResearchCentres@3d34d211]" started-at="2025-07-15T13:19:21 IST" name="ResearchCentres_DepartmentTabs" description="Open and Verify Research Centre Departments" finished-at="2025-07-15T13:19:36 IST" duration-ms="15417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResearchCentres_DepartmentTabs -->
+        <test-method signature="ResearchCentres_ComputerScienceVisit()[pri:3, instance:stthomas.stc_research_automation.tests.ResearchCentres@3d34d211]" started-at="2025-07-15T13:19:36 IST" name="ResearchCentres_ComputerScienceVisit" description="Open CS Department Page and Navigate Back" finished-at="2025-07-15T13:19:41 IST" duration-ms="4595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResearchCentres_ComputerScienceVisit -->
+        <test-method signature="ResearchCentres_ResearchGuideScholarSections()[pri:4, instance:stthomas.stc_research_automation.tests.ResearchCentres@3d34d211]" started-at="2025-07-15T13:19:41 IST" name="ResearchCentres_ResearchGuideScholarSections" description="Scroll and Click All Research Guides and Scholars" finished-at="2025-07-15T13:20:59 IST" duration-ms="78203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResearchCentres_ResearchGuideScholarSections -->
+        <test-method signature="ResearchCentres_DataCaptureLink()[pri:5, instance:stthomas.stc_research_automation.tests.ResearchCentres@3d34d211]" started-at="2025-07-15T13:20:59 IST" name="ResearchCentres_DataCaptureLink" description="Verify Research Scholar Data Capturing Link" finished-at="2025-07-15T13:21:06 IST" duration-ms="7235" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Did not navigate to DATA CAPTURING LINK FOR RESEARCH SCHOLARS expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Did not navigate to DATA CAPTURING LINK FOR RESEARCH SCHOLARS expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at stthomas.stc_research_automation.tests.ResearchCentres.ResearchCentres_DataCaptureLink(ResearchCentres.java:213)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResearchCentres_DataCaptureLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchCentres@3d34d211]" started-at="2025-07-15T13:21:06 IST" name="tearDown" finished-at="2025-07-15T13:21:07 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.ResearchCentres -->
+      <class name="stthomas.stc_research_automation.tests.ResearchPolicies">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchPolicies@43c1b556]" started-at="2025-07-15T13:24:20 IST" name="setup" finished-at="2025-07-15T13:24:26 IST" duration-ms="5302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyResearchPoliciesPage()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchPolicies@43c1b556]" started-at="2025-07-15T13:24:26 IST" name="verifyResearchPoliciesPage" description="Navigate to Research Policies Page Title and URL" finished-at="2025-07-15T13:24:29 IST" duration-ms="2858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResearchPoliciesPage -->
+        <test-method signature="clickResearchPolicyLinks()[pri:2, instance:stthomas.stc_research_automation.tests.ResearchPolicies@43c1b556]" started-at="2025-07-15T13:24:29 IST" name="clickResearchPolicyLinks" description="Click All Research Policy Links" finished-at="2025-07-15T13:24:55 IST" duration-ms="26182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickResearchPolicyLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchPolicies@43c1b556]" started-at="2025-07-15T13:24:55 IST" name="tearDown" finished-at="2025-07-15T13:24:55 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.ResearchPolicies -->
+      <class name="stthomas.stc_research_automation.tests.PhdRegulationsAndUo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" started-at="2025-07-15T13:21:07 IST" name="setup" finished-at="2025-07-15T13:21:12 IST" duration-ms="5609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToPhdRegPage()[pri:1, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" started-at="2025-07-15T13:21:12 IST" name="navigateToPhdRegPage" description="Navigate to PHD regulations page and verify title/URL" finished-at="2025-07-15T13:21:15 IST" duration-ms="2801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToPhdRegPage -->
+        <test-method signature="verifyDirectorateOfAdmissionLink()[pri:2, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" started-at="2025-07-15T13:21:15 IST" name="verifyDirectorateOfAdmissionLink" description="Verify link: Directorate of Admission" finished-at="2025-07-15T13:21:22 IST" duration-ms="7083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDirectorateOfAdmissionLink -->
+        <test-method signature="verifyImportantLinksSetOne()[pri:3, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" started-at="2025-07-15T13:21:22 IST" name="verifyImportantLinksSetOne" description="Verify PHD important links - first set" finished-at="2025-07-15T13:21:31 IST" duration-ms="8416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImportantLinksSetOne -->
+        <test-method signature="verifyPdfOpeningTable1()[pri:4, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" started-at="2025-07-15T13:21:31 IST" name="verifyPdfOpeningTable1" description="Verify PDF opening from table section 1" finished-at="2025-07-15T13:21:44 IST" duration-ms="13423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPdfOpeningTable1 -->
+        <test-method signature="verifySecondLinkSet()[pri:5, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" started-at="2025-07-15T13:21:44 IST" name="verifySecondLinkSet" description="Verify clickable document links" finished-at="2025-07-15T13:22:08 IST" duration-ms="23442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySecondLinkSet -->
+        <test-method signature="verifyPdfOpeningTable2()[pri:6, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" started-at="2025-07-15T13:22:08 IST" name="verifyPdfOpeningTable2" description="Verify PDF opening from table section 2" finished-at="2025-07-15T13:22:13 IST" duration-ms="5212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPdfOpeningTable2 -->
+        <test-method signature="verifyRemainingLinks()[pri:7, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" started-at="2025-07-15T13:22:13 IST" name="verifyRemainingLinks" description="Verify clickable links - last set" finished-at="2025-07-15T13:23:49 IST" duration-ms="96241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemainingLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706]" started-at="2025-07-15T13:23:49 IST" name="tearDown" finished-at="2025-07-15T13:23:49 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.PhdRegulationsAndUo -->
+      <class name="stthomas.stc_research_automation.tests.RacMembers">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.RacMembers@ae13544]" started-at="2025-07-15T13:18:52 IST" name="setup" finished-at="2025-07-15T13:18:58 IST" duration-ms="5839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToResearchCouncilMembers()[pri:1, instance:stthomas.stc_research_automation.tests.RacMembers@ae13544]" started-at="2025-07-15T13:18:58 IST" name="navigateToResearchCouncilMembers" description="Click on Research Advisory Council Members link and verify title and URL" finished-at="2025-07-15T13:18:59 IST" duration-ms="1505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToResearchCouncilMembers -->
+        <test-method signature="scrollAndVerifyCouncilMembersContent()[pri:2, instance:stthomas.stc_research_automation.tests.RacMembers@ae13544]" started-at="2025-07-15T13:18:59 IST" name="scrollAndVerifyCouncilMembersContent" description="Scroll and verify elements" finished-at="2025-07-15T13:19:13 IST" duration-ms="13371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollAndVerifyCouncilMembersContent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.RacMembers@ae13544]" started-at="2025-07-15T13:19:13 IST" name="tearDown" finished-at="2025-07-15T13:19:13 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.RacMembers -->
+      <class name="stthomas.stc_research_automation.tests.AnnualResearchReports">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.AnnualResearchReports@66d18979]" started-at="2025-07-15T13:40:48 IST" name="setup" finished-at="2025-07-15T13:40:54 IST" duration-ms="5242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToAnnualResearchReportSection()[pri:1, instance:stthomas.stc_research_automation.tests.AnnualResearchReports@66d18979]" started-at="2025-07-15T13:40:54 IST" name="navigateToAnnualResearchReportSection" description="Navigate to Annual Research Report section and verify title/url" finished-at="2025-07-15T13:40:56 IST" duration-ms="2197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAnnualResearchReportSection -->
+        <test-method signature="openAllAnnualResearchReports()[pri:2, instance:stthomas.stc_research_automation.tests.AnnualResearchReports@66d18979]" started-at="2025-07-15T13:40:56 IST" name="openAllAnnualResearchReports" description="Open each Annual Research Report one by one and perform slideshow" finished-at="2025-07-15T13:41:29 IST" duration-ms="32878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAllAnnualResearchReports -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.AnnualResearchReports@66d18979]" started-at="2025-07-15T13:41:29 IST" name="tearDown" finished-at="2025-07-15T13:41:29 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.AnnualResearchReports -->
+      <class name="stthomas.stc_research_automation.tests.ResearchRegulations">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchRegulations@4009e306]" started-at="2025-07-15T13:23:49 IST" name="setup" finished-at="2025-07-15T13:23:55 IST" duration-ms="5372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyResearchRegulationsPage()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchRegulations@4009e306]" started-at="2025-07-15T13:23:55 IST" name="verifyResearchRegulationsPage" description="Navigate to  Research Regulations Page and verify Title and URL" finished-at="2025-07-15T13:23:58 IST" duration-ms="3135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResearchRegulationsPage -->
+        <test-method signature="verifyDirectorateOfResearchLink()[pri:2, instance:stthomas.stc_research_automation.tests.ResearchRegulations@4009e306]" started-at="2025-07-15T13:23:58 IST" name="verifyDirectorateOfResearchLink" description="Verify External Link to Directorate of Research" finished-at="2025-07-15T13:24:03 IST" duration-ms="5516" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+DOR Page - Title mismatch expected [Home] but found [Research Regulations - St Thomas College (Autonomous)],
+DOR Page - URL mismatch expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+DOR Page - Title mismatch expected [Home] but found [Research Regulations - St Thomas College (Autonomous)],
+DOR Page - URL mismatch expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at stthomas.stc_research_automation.tests.ResearchRegulations.verifyDirectorateOfResearchLink(ResearchRegulations.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDirectorateOfResearchLink -->
+        <test-method signature="verifyCircularsAndOrdersLink()[pri:3, instance:stthomas.stc_research_automation.tests.ResearchRegulations@4009e306]" started-at="2025-07-15T13:24:03 IST" name="verifyCircularsAndOrdersLink" description="Verify Circulars and Orders Page" finished-at="2025-07-15T13:24:07 IST" duration-ms="3824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCircularsAndOrdersLink -->
+        <test-method signature="verifyPlagiarismAndRegulationFiles()[pri:4, instance:stthomas.stc_research_automation.tests.ResearchRegulations@4009e306]" started-at="2025-07-15T13:24:07 IST" name="verifyPlagiarismAndRegulationFiles" description="Verify Plagiarism and Research Regulations Files" finished-at="2025-07-15T13:24:11 IST" duration-ms="3507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlagiarismAndRegulationFiles -->
+        <test-method signature="verifyAnnualResearchReportNavigation()[pri:5, instance:stthomas.stc_research_automation.tests.ResearchRegulations@4009e306]" started-at="2025-07-15T13:24:11 IST" name="verifyAnnualResearchReportNavigation" description="Verify Annual Research Report Navigation" finished-at="2025-07-15T13:24:20 IST" duration-ms="9360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAnnualResearchReportNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchRegulations@4009e306]" started-at="2025-07-15T13:24:20 IST" name="tearDown" finished-at="2025-07-15T13:24:20 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.ResearchRegulations -->
+      <class name="stthomas.stc_research_automation.tests.CollaborativeResearch">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.CollaborativeResearch@305b7c14]" started-at="2025-07-15T13:29:46 IST" name="setup" finished-at="2025-07-15T13:29:51 IST" duration-ms="5449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToCollaborativeResearch()[pri:1, instance:stthomas.stc_research_automation.tests.CollaborativeResearch@305b7c14]" started-at="2025-07-15T13:29:51 IST" name="navigateToCollaborativeResearch" description="Navigate to Collaborative Research Section and verify title/url" finished-at="2025-07-15T13:29:55 IST" duration-ms="3772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCollaborativeResearch -->
+        <test-method signature="verifyCollaborativeResearchLinks()[pri:2, instance:stthomas.stc_research_automation.tests.CollaborativeResearch@305b7c14]" started-at="2025-07-15T13:29:55 IST" name="verifyCollaborativeResearchLinks" description="Verify all links in Collaborative Research" finished-at="2025-07-15T13:33:58 IST" duration-ms="242790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCollaborativeResearchLinks -->
+        <test-method signature="verifyCollaborativeResearchImages()[pri:3, instance:stthomas.stc_research_automation.tests.CollaborativeResearch@305b7c14]" started-at="2025-07-15T13:33:58 IST" name="verifyCollaborativeResearchImages" description="Verify image interactions in Collaborative Research" finished-at="2025-07-15T13:34:59 IST" duration-ms="61075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCollaborativeResearchImages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.CollaborativeResearch@305b7c14]" started-at="2025-07-15T13:34:59 IST" name="tearDown" finished-at="2025-07-15T13:34:59 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.CollaborativeResearch -->
+      <class name="stthomas.stc_research_automation.tests.Consultancy">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.Consultancy@c0c2f8d]" started-at="2025-07-15T13:29:28 IST" name="setup" finished-at="2025-07-15T13:29:34 IST" duration-ms="5483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToConsultancy()[pri:1, instance:stthomas.stc_research_automation.tests.Consultancy@c0c2f8d]" started-at="2025-07-15T13:29:34 IST" name="navigateToConsultancy" description="Navigate to Consultancy Page and verify title/url" finished-at="2025-07-15T13:29:38 IST" duration-ms="3970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToConsultancy -->
+        <test-method signature="handleConsultancyDocuments()[pri:2, instance:stthomas.stc_research_automation.tests.Consultancy@c0c2f8d]" started-at="2025-07-15T13:29:38 IST" name="handleConsultancyDocuments" description="Click Consultancy Links and Handle Windows" finished-at="2025-07-15T13:29:46 IST" duration-ms="7822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleConsultancyDocuments -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.Consultancy@c0c2f8d]" started-at="2025-07-15T13:29:46 IST" name="tearDown" finished-at="2025-07-15T13:29:46 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.Consultancy -->
+      <class name="stthomas.stc_research_automation.tests.RandPEthics2020">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8]" started-at="2025-07-15T13:28:23 IST" name="setup" finished-at="2025-07-15T13:28:29 IST" duration-ms="5718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEthics2020Navigation()[pri:1, instance:stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8]" started-at="2025-07-15T13:28:29 IST" name="verifyEthics2020Navigation" description="Navigate to Research and Publication Ethics 2020 section and verify title/url" finished-at="2025-07-15T13:28:34 IST" duration-ms="5222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEthics2020Navigation -->
+        <test-method signature="verifyEthics2020VideoPlayback()[pri:2, instance:stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8]" started-at="2025-07-15T13:28:34 IST" name="verifyEthics2020VideoPlayback" description="Play and pause embedded video in Ethics 2020 section" finished-at="2025-07-15T13:28:50 IST" duration-ms="16580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEthics2020VideoPlayback -->
+        <test-method signature="verifyEthics2020Links()[pri:3, instance:stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8]" started-at="2025-07-15T13:28:50 IST" name="verifyEthics2020Links" description="Click and verify all important links under Ethics 2020" finished-at="2025-07-15T13:29:13 IST" duration-ms="22908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEthics2020Links -->
+        <test-method signature="verifyEthics2020WindowSwitchLink()[pri:4, instance:stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8]" started-at="2025-07-15T13:29:13 IST" name="verifyEthics2020WindowSwitchLink" description="Switch to window and verify RPE form link" finished-at="2025-07-15T13:29:19 IST" duration-ms="5747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEthics2020WindowSwitchLink -->
+        <test-method signature="verifyEthics2020FinalDocuments()[pri:5, instance:stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8]" started-at="2025-07-15T13:29:19 IST" name="verifyEthics2020FinalDocuments" description="Verify UGC Guidelines and final links" finished-at="2025-07-15T13:29:28 IST" duration-ms="9059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEthics2020FinalDocuments -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8]" started-at="2025-07-15T13:29:28 IST" name="tearDown" finished-at="2025-07-15T13:29:28 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.RandPEthics2020 -->
+      <class name="stthomas.stc_research_automation.tests.ResearchEthics">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchEthics@2de23121]" started-at="2025-07-15T13:26:49 IST" name="setup" finished-at="2025-07-15T13:26:55 IST" duration-ms="5800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToResearchEthics()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchEthics@2de23121]" started-at="2025-07-15T13:26:55 IST" name="navigateToResearchEthics" description="Navigate to Research Ethics and verify title/url" finished-at="2025-07-15T13:26:57 IST" duration-ms="2756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToResearchEthics -->
+        <test-method signature="scrollAndValidateResearchEthicsPDF()[pri:2, instance:stthomas.stc_research_automation.tests.ResearchEthics@2de23121]" started-at="2025-07-15T13:26:57 IST" name="scrollAndValidateResearchEthicsPDF" description="Scroll, Open, Validate PDF and Scroll Top" finished-at="2025-07-15T13:27:04 IST" duration-ms="6940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollAndValidateResearchEthicsPDF -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchEthics@2de23121]" started-at="2025-07-15T13:27:04 IST" name="tearDown" finished-at="2025-07-15T13:27:04 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.ResearchEthics -->
+      <class name="stthomas.stc_research_automation.tests.ResearchHighlight">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchHighlight@609cd4d8]" started-at="2025-07-15T13:42:55 IST" name="setup" finished-at="2025-07-15T13:43:00 IST" duration-ms="5376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToResearchHighlights()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchHighlight@609cd4d8]" started-at="2025-07-15T13:43:00 IST" name="navigateToResearchHighlights" description="Navigate to Research Highlights and verify title/url" finished-at="2025-07-15T13:43:05 IST" duration-ms="4067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToResearchHighlights -->
+        <test-method signature="verifyResearchHighlightLinks()[pri:2, instance:stthomas.stc_research_automation.tests.ResearchHighlight@609cd4d8]" started-at="2025-07-15T13:43:05 IST" name="verifyResearchHighlightLinks" description="Click redirect links under Research Highlights and return" finished-at="2025-07-15T13:48:19 IST" duration-ms="314873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResearchHighlightLinks -->
+        <test-method signature="verifyResearchHighlightImageSection()[pri:3, instance:stthomas.stc_research_automation.tests.ResearchHighlight@609cd4d8]" started-at="2025-07-15T13:48:19 IST" name="verifyResearchHighlightImageSection" description="Open images in fullscreen &amp; slideshow mode and close them" finished-at="2025-07-15T13:50:07 IST" duration-ms="107561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResearchHighlightImageSection -->
+        <test-method signature="verifyResearchHighlightPagination()[pri:4, instance:stthomas.stc_research_automation.tests.ResearchHighlight@609cd4d8]" started-at="2025-07-15T13:50:07 IST" name="verifyResearchHighlightPagination" description="Verify pagination under Research Highlights" finished-at="2025-07-15T13:50:19 IST" duration-ms="11997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResearchHighlightPagination -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchHighlight@609cd4d8]" started-at="2025-07-15T13:50:19 IST" name="tearDown" finished-at="2025-07-15T13:50:19 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.ResearchHighlight -->
+      <class name="stthomas.stc_research_automation.tests.RandPEthics2021">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.RandPEthics2021@63475ace]" started-at="2025-07-15T13:27:04 IST" name="setup" finished-at="2025-07-15T13:27:11 IST" duration-ms="6148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyResearchRegulationsPage()[pri:1, instance:stthomas.stc_research_automation.tests.RandPEthics2021@63475ace]" started-at="2025-07-15T13:27:11 IST" name="verifyResearchRegulationsPage" description="Navigate to Research and Publication Ethics 2021 page and verify title/url" finished-at="2025-07-15T13:27:15 IST" duration-ms="4587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResearchRegulationsPage -->
+        <test-method signature="verifyBrochureLink()[pri:2, instance:stthomas.stc_research_automation.tests.RandPEthics2021@63475ace]" started-at="2025-07-15T13:27:15 IST" name="verifyBrochureLink" description="Verify brochure link " finished-at="2025-07-15T13:27:21 IST" duration-ms="5647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrochureLink -->
+        <test-method signature="verifyDirectorateOfResearchLink()[pri:3, instance:stthomas.stc_research_automation.tests.RandPEthics2021@63475ace]" started-at="2025-07-15T13:27:21 IST" name="verifyDirectorateOfResearchLink" description="Scroll to course section and play video" finished-at="2025-07-15T13:27:39 IST" duration-ms="17759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDirectorateOfResearchLink -->
+        <test-method signature="verifyCircularsAndOrdersLink()[pri:4, instance:stthomas.stc_research_automation.tests.RandPEthics2021@63475ace]" started-at="2025-07-15T13:27:39 IST" name="verifyCircularsAndOrdersLink" description="Loop through course-related links and return back" finished-at="2025-07-15T13:28:22 IST" duration-ms="43800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCircularsAndOrdersLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.RandPEthics2021@63475ace]" started-at="2025-07-15T13:28:22 IST" name="tearDown" finished-at="2025-07-15T13:28:23 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.RandPEthics2021 -->
+      <class name="stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte@587e5365]" started-at="2025-07-15T13:24:55 IST" name="setup" finished-at="2025-07-15T13:25:00 IST" duration-ms="5351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToResearchAdvisoryCommittee()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte@587e5365]" started-at="2025-07-15T13:25:00 IST" name="navigateToResearchAdvisoryCommittee" description="Navigate to Research Advisory Committee and verify title/url" finished-at="2025-07-15T13:25:06 IST" duration-ms="5418" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Research Advisory Committee - Page title mismatch expected [Research Advisory Committees - St Thomas College (Autonomous)] but found [St. Thomas College (Autonomous) | Thrissur],
+Did not navigate to Research Advisory Committee expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Research Advisory Committee - Page title mismatch expected [Research Advisory Committees - St Thomas College (Autonomous)] but found [St. Thomas College (Autonomous) | Thrissur],
+Did not navigate to Research Advisory Committee expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte.navigateToResearchAdvisoryCommittee(ResearchAdvisoryCommitte.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToResearchAdvisoryCommittee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte@587e5365]" started-at="2025-07-15T13:25:06 IST" name="tearDown" finished-at="2025-07-15T13:25:06 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte -->
+      <class name="stthomas.stc_research_automation.tests.ResearchProgrammes">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchProgrammes@22fcf7ab]" started-at="2025-07-15T13:25:06 IST" name="setup" finished-at="2025-07-15T13:25:12 IST" duration-ms="5555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyResearchProgrammes()[pri:1, instance:stthomas.stc_research_automation.tests.ResearchProgrammes@22fcf7ab]" started-at="2025-07-15T13:25:12 IST" name="verifyResearchProgrammes" description="Navigate to Research Programmes page and verify title/url" finished-at="2025-07-15T13:25:15 IST" duration-ms="3799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResearchProgrammes -->
+        <test-method signature="checkPaginationControls()[pri:3, instance:stthomas.stc_research_automation.tests.ResearchProgrammes@22fcf7ab]" started-at="2025-07-15T13:25:15 IST" name="checkPaginationControls" description="Check pagination navigation in Research Programmes" finished-at="2025-07-15T13:25:42 IST" duration-ms="26473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPaginationControls -->
+        <test-method signature="verifyInvitedSpeakersSection()[pri:4, instance:stthomas.stc_research_automation.tests.ResearchProgrammes@22fcf7ab]" started-at="2025-07-15T13:25:42 IST" name="verifyInvitedSpeakersSection" description="Verify Invited Speakers page" finished-at="2025-07-15T13:25:51 IST" duration-ms="8668" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Invited speakers - Page title mismatch expected [Invited speakers - St Thomas College (Autonomous)] but found [St. Thomas College (Autonomous) | Thrissur],
+Did not navigate to Invited speakers page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Invited speakers - Page title mismatch expected [Invited speakers - St Thomas College (Autonomous)] but found [St. Thomas College (Autonomous) | Thrissur],
+Did not navigate to Invited speakers page expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at stthomas.stc_research_automation.tests.ResearchProgrammes.verifyInvitedSpeakersSection(ResearchProgrammes.java:116)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvitedSpeakersSection -->
+        <test-method signature="verifyTableSection()[pri:4, instance:stthomas.stc_research_automation.tests.ResearchProgrammes@22fcf7ab]" started-at="2025-07-15T13:25:51 IST" name="verifyTableSection" description="Verify table section" finished-at="2025-07-15T13:26:48 IST" duration-ms="57874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableSection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.ResearchProgrammes@22fcf7ab]" started-at="2025-07-15T13:26:48 IST" name="tearDown" finished-at="2025-07-15T13:26:49 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.ResearchProgrammes -->
+      <class name="stthomas.stc_research_automation.tests.AboutRAC">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2]" started-at="2025-07-15T13:17:50 IST" name="setup" finished-at="2025-07-15T13:17:57 IST" duration-ms="6844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAboutPageTitle()[pri:1, instance:stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2]" started-at="2025-07-15T13:17:57 IST" name="verifyAboutPageTitle" description="Validate About page title and verify title/url" finished-at="2025-07-15T13:17:57 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAboutPageTitle -->
+        <test-method signature="verifyResearchCouncilNavigation()[pri:2, instance:stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2]" started-at="2025-07-15T13:17:57 IST" name="verifyResearchCouncilNavigation" description="Navigate to Research Advisory Council" finished-at="2025-07-15T13:17:58 IST" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResearchCouncilNavigation -->
+        <test-method signature="verifyPhdPageNavigation()[pri:3, instance:stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2]" started-at="2025-07-15T13:17:58 IST" name="verifyPhdPageNavigation" description="Verify PhD page navigation and title" finished-at="2025-07-15T13:18:04 IST" duration-ms="5528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPhdPageNavigation -->
+        <test-method signature="verifyPhdAwardeesSections()[pri:4, instance:stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2]" started-at="2025-07-15T13:18:04 IST" name="verifyPhdAwardeesSections" description="Verify PhD Awardees sections and headings" finished-at="2025-07-15T13:18:44 IST" duration-ms="40249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPhdAwardeesSections -->
+        <test-method signature="verifyDirectorateOfResearchLink()[pri:5, instance:stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2]" started-at="2025-07-15T13:18:44 IST" name="verifyDirectorateOfResearchLink" description="Verify external link to Directorate of Research" finished-at="2025-07-15T13:18:47 IST" duration-ms="3422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDirectorateOfResearchLink -->
+        <test-method signature="verifyAnnualResearchReports()[pri:6, instance:stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2]" started-at="2025-07-15T13:18:47 IST" name="verifyAnnualResearchReports" description="Verify Annual Research Reports" finished-at="2025-07-15T13:18:52 IST" duration-ms="4322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAnnualResearchReports -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2]" started-at="2025-07-15T13:18:52 IST" name="tearDown" finished-at="2025-07-15T13:18:52 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.AboutRAC -->
+      <class name="stthomas.stc_research_automation.tests.Journals">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.Journals@bccb269]" started-at="2025-07-15T13:41:29 IST" name="setup" finished-at="2025-07-15T13:41:35 IST" duration-ms="5728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToJournalsSection()[pri:1, instance:stthomas.stc_research_automation.tests.Journals@bccb269]" started-at="2025-07-15T13:41:35 IST" name="navigateToJournalsSection" description="Navigate to Journals section and verify title/url" finished-at="2025-07-15T13:41:37 IST" duration-ms="2492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToJournalsSection -->
+        <test-method signature="viewJournalHomePageAndReturn()[pri:2, instance:stthomas.stc_research_automation.tests.Journals@bccb269]" started-at="2025-07-15T13:41:37 IST" name="viewJournalHomePageAndReturn" description="Click View Journal Home Page and return" finished-at="2025-07-15T13:42:03 IST" duration-ms="25287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewJournalHomePageAndReturn -->
+        <test-method signature="verifyJournalVolumes()[pri:3, instance:stthomas.stc_research_automation.tests.Journals@bccb269]" started-at="2025-07-15T13:42:03 IST" name="verifyJournalVolumes" description="Open and verify Journal Volumes" finished-at="2025-07-15T13:42:55 IST" duration-ms="52168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJournalVolumes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.Journals@bccb269]" started-at="2025-07-15T13:42:55 IST" name="tearDown" finished-at="2025-07-15T13:42:55 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.Journals -->
+      <class name="stthomas.stc_research_automation.tests.AwardsAndFellowships">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stthomas.stc_research_automation.tests.AwardsAndFellowships@17f7cd29]" started-at="2025-07-15T13:50:19 IST" name="setup" finished-at="2025-07-15T13:50:26 IST" duration-ms="7185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToAwardsAndFellowshipsPage()[pri:1, instance:stthomas.stc_research_automation.tests.AwardsAndFellowships@17f7cd29]" started-at="2025-07-15T13:50:26 IST" name="navigateToAwardsAndFellowshipsPage" description="Navigate to Awards and Fellowships page and verify title/url" finished-at="2025-07-15T13:50:30 IST" duration-ms="3083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAwardsAndFellowshipsPage -->
+        <test-method signature="verifyPaginationControls()[pri:2, instance:stthomas.stc_research_automation.tests.AwardsAndFellowships@17f7cd29]" started-at="2025-07-15T13:50:30 IST" name="verifyPaginationControls" description="Verify the pagination controls next, prev, dropdown, search ..." finished-at="2025-07-15T13:50:55 IST" duration-ms="25912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaginationControls -->
+        <test-method signature="verifyLinkNavigationAndBack()[pri:3, instance:stthomas.stc_research_automation.tests.AwardsAndFellowships@17f7cd29]" started-at="2025-07-15T13:50:55 IST" name="verifyLinkNavigationAndBack" description="Verify link navigations and return back" finished-at="2025-07-15T13:51:40 IST" duration-ms="44197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkNavigationAndBack -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stthomas.stc_research_automation.tests.AwardsAndFellowships@17f7cd29]" started-at="2025-07-15T13:51:40 IST" name="tearDown" finished-at="2025-07-15T13:51:40 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stthomas.stc_research_automation.tests.AwardsAndFellowships -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Suite -->
+</testng-results>

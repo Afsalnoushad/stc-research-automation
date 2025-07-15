@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Smoke Test">
+  <groups>
+  <run>
+  <include name="smoke"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="stthomas.stc_research_automation.tests.AboutRAC"/>
+      <class name="stthomas.stc_research_automation.tests.RacMembers"/>
+      <class name="stthomas.stc_research_automation.tests.ResearchCentres"/>
+      <class name="stthomas.stc_research_automation.tests.PhdRegulationsAndUo"/>
+      <class name="stthomas.stc_research_automation.tests.ResearchRegulations"/>
+      <class name="stthomas.stc_research_automation.tests.ResearchPolicies"/>
+      <class name="stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte"/>
+      <class name="stthomas.stc_research_automation.tests.ResearchProgrammes"/>    
+      <class name="stthomas.stc_research_automation.tests.ResearchEthics"/>  
+      <class name="stthomas.stc_research_automation.tests.RandPEthics2021"/>
+      <class name="stthomas.stc_research_automation.tests.RandPEthics2020"/>
+      <class name="stthomas.stc_research_automation.tests.Consultancy"/>    
+      <class name="stthomas.stc_research_automation.tests.CollaborativeResearch"/>
+      <class name="stthomas.stc_research_automation.tests.ResearchProjects"/>
+      <class name="stthomas.stc_research_automation.tests.AnnualResearchReports"/>    
+      <class name="stthomas.stc_research_automation.tests.Journals"/>
+      <class name="stthomas.stc_research_automation.tests.ResearchHighlight"/>
+      <class name="stthomas.stc_research_automation.tests.AwardsAndFellowships"/>   
+    </classes>
+  </test> <!-- Smoke Test -->
+</suite> <!-- Suite -->

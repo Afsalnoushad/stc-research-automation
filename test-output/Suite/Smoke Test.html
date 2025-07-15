@@ -1,0 +1,559 @@
+<html>
+<head>
+<title>TestNG:  Smoke Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Smoke Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>60/4/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 15 13:17:50 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>2030 seconds (2030045 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte.navigateToResearchAdvisoryCommittee()'><b>navigateToResearchAdvisoryCommittee</b><br>Test class: stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte<br>Test method: Navigate to Research Advisory Committee and verify title/url</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Research Advisory Committee - Page title mismatch expected [Research Advisory Committees - St Thomas College (Autonomous)] but found [St. Thomas College (Autonomous) | Thrissur],
+	Did not navigate to Research Advisory Committee expected [true] but found [false]
+	at stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte.navigateToResearchAdvisoryCommittee(ResearchAdvisoryCommitte.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1673308237", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1673308237'><pre>java.lang.AssertionError: The following asserts failed:
+	Research Advisory Committee - Page title mismatch expected [Research Advisory Committees - St Thomas College (Autonomous)] but found [St. Thomas College (Autonomous) | Thrissur],
+	Did not navigate to Research Advisory Committee expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte.navigateToResearchAdvisoryCommittee(ResearchAdvisoryCommitte.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>5</td>
+<td>stthomas.stc_research_automation.tests.ResearchAdvisoryCommitte@587e5365</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchCentres.ResearchCentres_DataCaptureLink()'><b>ResearchCentres_DataCaptureLink</b><br>Test class: stthomas.stc_research_automation.tests.ResearchCentres<br>Test method: Verify Research Scholar Data Capturing Link</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Did not navigate to DATA CAPTURING LINK FOR RESEARCH SCHOLARS expected [true] but found [false]
+	at stthomas.stc_research_automation.tests.ResearchCentres.ResearchCentres_DataCaptureLink(ResearchCentres.java:213)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace848343462", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace848343462'><pre>java.lang.AssertionError: The following asserts failed:
+	Did not navigate to DATA CAPTURING LINK FOR RESEARCH SCHOLARS expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at stthomas.stc_research_automation.tests.ResearchCentres.ResearchCentres_DataCaptureLink(ResearchCentres.java:213)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>7</td>
+<td>stthomas.stc_research_automation.tests.ResearchCentres@3d34d211</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchProgrammes.verifyInvitedSpeakersSection()'><b>verifyInvitedSpeakersSection</b><br>Test class: stthomas.stc_research_automation.tests.ResearchProgrammes<br>Test method: Verify Invited Speakers page</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Invited speakers - Page title mismatch expected [Invited speakers - St Thomas College (Autonomous)] but found [St. Thomas College (Autonomous) | Thrissur],
+	Did not navigate to Invited speakers page expected [true] but found [false]
+	at stthomas.stc_research_automation.tests.ResearchProgrammes.verifyInvitedSpeakersSection(ResearchProgrammes.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace63636701", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace63636701'><pre>java.lang.AssertionError: The following asserts failed:
+	Invited speakers - Page title mismatch expected [Invited speakers - St Thomas College (Autonomous)] but found [St. Thomas College (Autonomous) | Thrissur],
+	Did not navigate to Invited speakers page expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at stthomas.stc_research_automation.tests.ResearchProgrammes.verifyInvitedSpeakersSection(ResearchProgrammes.java:116)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>8</td>
+<td>stthomas.stc_research_automation.tests.ResearchProgrammes@22fcf7ab</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchRegulations.verifyDirectorateOfResearchLink()'><b>verifyDirectorateOfResearchLink</b><br>Test class: stthomas.stc_research_automation.tests.ResearchRegulations<br>Test method: Verify External Link to Directorate of Research</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	DOR Page - Title mismatch expected [Home] but found [Research Regulations - St Thomas College (Autonomous)],
+	DOR Page - URL mismatch expected [true] but found [false]
+	at stthomas.stc_research_automation.tests.ResearchRegulations.verifyDirectorateOfResearchLink(ResearchRegulations.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace955581180", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace955581180'><pre>java.lang.AssertionError: The following asserts failed:
+	DOR Page - Title mismatch expected [Home] but found [Research Regulations - St Thomas College (Autonomous)],
+	DOR Page - URL mismatch expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at stthomas.stc_research_automation.tests.ResearchRegulations.verifyDirectorateOfResearchLink(ResearchRegulations.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>5</td>
+<td>stthomas.stc_research_automation.tests.ResearchRegulations@4009e306</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchHighlight.verifyResearchHighlightPagination()'><b>verifyResearchHighlightPagination</b><br>Test class: stthomas.stc_research_automation.tests.ResearchHighlight<br>Test method: Verify pagination under Research Highlights</td>
+<td></td>
+<td>11</td>
+<td>stthomas.stc_research_automation.tests.ResearchHighlight@609cd4d8</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.RandPEthics2020.verifyEthics2020Links()'><b>verifyEthics2020Links</b><br>Test class: stthomas.stc_research_automation.tests.RandPEthics2020<br>Test method: Click and verify all important links under Ethics 2020</td>
+<td></td>
+<td>22</td>
+<td>stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.AwardsAndFellowships.verifyLinkNavigationAndBack()'><b>verifyLinkNavigationAndBack</b><br>Test class: stthomas.stc_research_automation.tests.AwardsAndFellowships<br>Test method: Verify link navigations and return back</td>
+<td></td>
+<td>44</td>
+<td>stthomas.stc_research_automation.tests.AwardsAndFellowships@17f7cd29</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.RacMembers.navigateToResearchCouncilMembers()'><b>navigateToResearchCouncilMembers</b><br>Test class: stthomas.stc_research_automation.tests.RacMembers<br>Test method: Click on Research Advisory Council Members link and verify title and URL</td>
+<td></td>
+<td>1</td>
+<td>stthomas.stc_research_automation.tests.RacMembers@ae13544</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.RacMembers.scrollAndVerifyCouncilMembersContent()'><b>scrollAndVerifyCouncilMembersContent</b><br>Test class: stthomas.stc_research_automation.tests.RacMembers<br>Test method: Scroll and verify elements</td>
+<td></td>
+<td>13</td>
+<td>stthomas.stc_research_automation.tests.RacMembers@ae13544</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchEthics.scrollAndValidateResearchEthicsPDF()'><b>scrollAndValidateResearchEthicsPDF</b><br>Test class: stthomas.stc_research_automation.tests.ResearchEthics<br>Test method: Scroll, Open, Validate PDF and Scroll Top</td>
+<td></td>
+<td>6</td>
+<td>stthomas.stc_research_automation.tests.ResearchEthics@2de23121</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.AboutRAC.verifyAboutPageTitle()'><b>verifyAboutPageTitle</b><br>Test class: stthomas.stc_research_automation.tests.AboutRAC<br>Test method: Validate About page title and verify title/url</td>
+<td></td>
+<td>0</td>
+<td>stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.Consultancy.navigateToConsultancy()'><b>navigateToConsultancy</b><br>Test class: stthomas.stc_research_automation.tests.Consultancy<br>Test method: Navigate to Consultancy Page and verify title/url</td>
+<td></td>
+<td>3</td>
+<td>stthomas.stc_research_automation.tests.Consultancy@c0c2f8d</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchHighlight.verifyResearchHighlightImageSection()'><b>verifyResearchHighlightImageSection</b><br>Test class: stthomas.stc_research_automation.tests.ResearchHighlight<br>Test method: Open images in fullscreen & slideshow mode and close them</td>
+<td></td>
+<td>107</td>
+<td>stthomas.stc_research_automation.tests.ResearchHighlight@609cd4d8</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.Journals.viewJournalHomePageAndReturn()'><b>viewJournalHomePageAndReturn</b><br>Test class: stthomas.stc_research_automation.tests.Journals<br>Test method: Click View Journal Home Page and return</td>
+<td></td>
+<td>25</td>
+<td>stthomas.stc_research_automation.tests.Journals@bccb269</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchPolicies.clickResearchPolicyLinks()'><b>clickResearchPolicyLinks</b><br>Test class: stthomas.stc_research_automation.tests.ResearchPolicies<br>Test method: Click All Research Policy Links</td>
+<td></td>
+<td>26</td>
+<td>stthomas.stc_research_automation.tests.ResearchPolicies@43c1b556</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.RandPEthics2020.verifyEthics2020Navigation()'><b>verifyEthics2020Navigation</b><br>Test class: stthomas.stc_research_automation.tests.RandPEthics2020<br>Test method: Navigate to Research and Publication Ethics 2020 section and verify title/url</td>
+<td></td>
+<td>5</td>
+<td>stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.AnnualResearchReports.navigateToAnnualResearchReportSection()'><b>navigateToAnnualResearchReportSection</b><br>Test class: stthomas.stc_research_automation.tests.AnnualResearchReports<br>Test method: Navigate to Annual Research Report section and verify title/url</td>
+<td></td>
+<td>2</td>
+<td>stthomas.stc_research_automation.tests.AnnualResearchReports@66d18979</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchRegulations.verifyAnnualResearchReportNavigation()'><b>verifyAnnualResearchReportNavigation</b><br>Test class: stthomas.stc_research_automation.tests.ResearchRegulations<br>Test method: Verify Annual Research Report Navigation</td>
+<td></td>
+<td>9</td>
+<td>stthomas.stc_research_automation.tests.ResearchRegulations@4009e306</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.RandPEthics2021.verifyDirectorateOfResearchLink()'><b>verifyDirectorateOfResearchLink</b><br>Test class: stthomas.stc_research_automation.tests.RandPEthics2021<br>Test method: Scroll to course section and play video</td>
+<td></td>
+<td>17</td>
+<td>stthomas.stc_research_automation.tests.RandPEthics2021@63475ace</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchHighlight.verifyResearchHighlightLinks()'><b>verifyResearchHighlightLinks</b><br>Test class: stthomas.stc_research_automation.tests.ResearchHighlight<br>Test method: Click redirect links under Research Highlights and return</td>
+<td></td>
+<td>314</td>
+<td>stthomas.stc_research_automation.tests.ResearchHighlight@609cd4d8</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchCentres.ResearchCentres_ComputerScienceVisit()'><b>ResearchCentres_ComputerScienceVisit</b><br>Test class: stthomas.stc_research_automation.tests.ResearchCentres<br>Test method: Open CS Department Page and Navigate Back</td>
+<td></td>
+<td>4</td>
+<td>stthomas.stc_research_automation.tests.ResearchCentres@3d34d211</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.PhdRegulationsAndUo.verifyRemainingLinks()'><b>verifyRemainingLinks</b><br>Test class: stthomas.stc_research_automation.tests.PhdRegulationsAndUo<br>Test method: Verify clickable links - last set</td>
+<td></td>
+<td>96</td>
+<td>stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.Journals.navigateToJournalsSection()'><b>navigateToJournalsSection</b><br>Test class: stthomas.stc_research_automation.tests.Journals<br>Test method: Navigate to Journals section and verify title/url</td>
+<td></td>
+<td>2</td>
+<td>stthomas.stc_research_automation.tests.Journals@bccb269</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.PhdRegulationsAndUo.verifyPdfOpeningTable2()'><b>verifyPdfOpeningTable2</b><br>Test class: stthomas.stc_research_automation.tests.PhdRegulationsAndUo<br>Test method: Verify PDF opening from table section 2</td>
+<td></td>
+<td>5</td>
+<td>stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchProgrammes.verifyResearchProgrammes()'><b>verifyResearchProgrammes</b><br>Test class: stthomas.stc_research_automation.tests.ResearchProgrammes<br>Test method: Navigate to Research Programmes page and verify title/url</td>
+<td></td>
+<td>3</td>
+<td>stthomas.stc_research_automation.tests.ResearchProgrammes@22fcf7ab</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.PhdRegulationsAndUo.verifySecondLinkSet()'><b>verifySecondLinkSet</b><br>Test class: stthomas.stc_research_automation.tests.PhdRegulationsAndUo<br>Test method: Verify clickable document links</td>
+<td></td>
+<td>23</td>
+<td>stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchCentres.ResearchCentres_DepartmentTabs()'><b>ResearchCentres_DepartmentTabs</b><br>Test class: stthomas.stc_research_automation.tests.ResearchCentres<br>Test method: Open and Verify Research Centre Departments</td>
+<td></td>
+<td>15</td>
+<td>stthomas.stc_research_automation.tests.ResearchCentres@3d34d211</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.CollaborativeResearch.navigateToCollaborativeResearch()'><b>navigateToCollaborativeResearch</b><br>Test class: stthomas.stc_research_automation.tests.CollaborativeResearch<br>Test method: Navigate to Collaborative Research Section and verify title/url</td>
+<td></td>
+<td>3</td>
+<td>stthomas.stc_research_automation.tests.CollaborativeResearch@305b7c14</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchEthics.navigateToResearchEthics()'><b>navigateToResearchEthics</b><br>Test class: stthomas.stc_research_automation.tests.ResearchEthics<br>Test method: Navigate to Research Ethics and verify title/url</td>
+<td></td>
+<td>2</td>
+<td>stthomas.stc_research_automation.tests.ResearchEthics@2de23121</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.CollaborativeResearch.verifyCollaborativeResearchImages()'><b>verifyCollaborativeResearchImages</b><br>Test class: stthomas.stc_research_automation.tests.CollaborativeResearch<br>Test method: Verify image interactions in Collaborative Research</td>
+<td></td>
+<td>61</td>
+<td>stthomas.stc_research_automation.tests.CollaborativeResearch@305b7c14</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchProjects.verifyResearchProjectsSection()'><b>verifyResearchProjectsSection</b><br>Test class: stthomas.stc_research_automation.tests.ResearchProjects<br>Test method: Navigate to Research Projects section and verify title/url</td>
+<td></td>
+<td>3</td>
+<td>stthomas.stc_research_automation.tests.ResearchProjects@6913c1fb</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchProjects.VerifyResearchProjectTable()'><b>VerifyResearchProjectTable</b><br>Test class: stthomas.stc_research_automation.tests.ResearchProjects<br>Test method: Check Research Projects table functionality</td>
+<td></td>
+<td>14</td>
+<td>stthomas.stc_research_automation.tests.ResearchProjects@6913c1fb</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.PhdRegulationsAndUo.verifyImportantLinksSetOne()'><b>verifyImportantLinksSetOne</b><br>Test class: stthomas.stc_research_automation.tests.PhdRegulationsAndUo<br>Test method: Verify PHD important links - first set</td>
+<td></td>
+<td>8</td>
+<td>stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.AwardsAndFellowships.navigateToAwardsAndFellowshipsPage()'><b>navigateToAwardsAndFellowshipsPage</b><br>Test class: stthomas.stc_research_automation.tests.AwardsAndFellowships<br>Test method: Navigate to Awards and Fellowships page and verify title/url</td>
+<td></td>
+<td>3</td>
+<td>stthomas.stc_research_automation.tests.AwardsAndFellowships@17f7cd29</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.RandPEthics2020.verifyEthics2020FinalDocuments()'><b>verifyEthics2020FinalDocuments</b><br>Test class: stthomas.stc_research_automation.tests.RandPEthics2020<br>Test method: Verify UGC Guidelines and final links</td>
+<td></td>
+<td>9</td>
+<td>stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.RandPEthics2021.verifyCircularsAndOrdersLink()'><b>verifyCircularsAndOrdersLink</b><br>Test class: stthomas.stc_research_automation.tests.RandPEthics2021<br>Test method: Loop through course-related links and return back</td>
+<td></td>
+<td>43</td>
+<td>stthomas.stc_research_automation.tests.RandPEthics2021@63475ace</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.AboutRAC.verifyPhdAwardeesSections()'><b>verifyPhdAwardeesSections</b><br>Test class: stthomas.stc_research_automation.tests.AboutRAC<br>Test method: Verify PhD Awardees sections and headings</td>
+<td></td>
+<td>40</td>
+<td>stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.AboutRAC.verifyDirectorateOfResearchLink()'><b>verifyDirectorateOfResearchLink</b><br>Test class: stthomas.stc_research_automation.tests.AboutRAC<br>Test method: Verify external link to Directorate of Research</td>
+<td></td>
+<td>3</td>
+<td>stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.CollaborativeResearch.verifyCollaborativeResearchLinks()'><b>verifyCollaborativeResearchLinks</b><br>Test class: stthomas.stc_research_automation.tests.CollaborativeResearch<br>Test method: Verify all links in Collaborative Research</td>
+<td></td>
+<td>242</td>
+<td>stthomas.stc_research_automation.tests.CollaborativeResearch@305b7c14</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.RandPEthics2020.verifyEthics2020VideoPlayback()'><b>verifyEthics2020VideoPlayback</b><br>Test class: stthomas.stc_research_automation.tests.RandPEthics2020<br>Test method: Play and pause embedded video in Ethics 2020 section</td>
+<td></td>
+<td>16</td>
+<td>stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchHighlight.navigateToResearchHighlights()'><b>navigateToResearchHighlights</b><br>Test class: stthomas.stc_research_automation.tests.ResearchHighlight<br>Test method: Navigate to Research Highlights and verify title/url</td>
+<td></td>
+<td>4</td>
+<td>stthomas.stc_research_automation.tests.ResearchHighlight@609cd4d8</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.RandPEthics2020.verifyEthics2020WindowSwitchLink()'><b>verifyEthics2020WindowSwitchLink</b><br>Test class: stthomas.stc_research_automation.tests.RandPEthics2020<br>Test method: Switch to window and verify RPE form link</td>
+<td></td>
+<td>5</td>
+<td>stthomas.stc_research_automation.tests.RandPEthics2020@4988d8b8</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchProjects.VerifyAllRedirectLinks()'><b>VerifyAllRedirectLinks</b><br>Test class: stthomas.stc_research_automation.tests.ResearchProjects<br>Test method: Check redirection links under Research Projects</td>
+<td></td>
+<td>280</td>
+<td>stthomas.stc_research_automation.tests.ResearchProjects@6913c1fb</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchProgrammes.checkPaginationControls()'><b>checkPaginationControls</b><br>Test class: stthomas.stc_research_automation.tests.ResearchProgrammes<br>Test method: Check pagination navigation in Research Programmes</td>
+<td></td>
+<td>26</td>
+<td>stthomas.stc_research_automation.tests.ResearchProgrammes@22fcf7ab</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.AboutRAC.verifyResearchCouncilNavigation()'><b>verifyResearchCouncilNavigation</b><br>Test class: stthomas.stc_research_automation.tests.AboutRAC<br>Test method: Navigate to Research Advisory Council</td>
+<td></td>
+<td>1</td>
+<td>stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchCentres.ResearchCentres_ResearchGuideScholarSections()'><b>ResearchCentres_ResearchGuideScholarSections</b><br>Test class: stthomas.stc_research_automation.tests.ResearchCentres<br>Test method: Scroll and Click All Research Guides and Scholars</td>
+<td></td>
+<td>78</td>
+<td>stthomas.stc_research_automation.tests.ResearchCentres@3d34d211</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.PhdRegulationsAndUo.navigateToPhdRegPage()'><b>navigateToPhdRegPage</b><br>Test class: stthomas.stc_research_automation.tests.PhdRegulationsAndUo<br>Test method: Navigate to PHD regulations page and verify title/URL</td>
+<td></td>
+<td>2</td>
+<td>stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.AboutRAC.verifyAnnualResearchReports()'><b>verifyAnnualResearchReports</b><br>Test class: stthomas.stc_research_automation.tests.AboutRAC<br>Test method: Verify Annual Research Reports</td>
+<td></td>
+<td>4</td>
+<td>stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.Consultancy.handleConsultancyDocuments()'><b>handleConsultancyDocuments</b><br>Test class: stthomas.stc_research_automation.tests.Consultancy<br>Test method: Click Consultancy Links and Handle Windows</td>
+<td></td>
+<td>7</td>
+<td>stthomas.stc_research_automation.tests.Consultancy@c0c2f8d</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchRegulations.verifyPlagiarismAndRegulationFiles()'><b>verifyPlagiarismAndRegulationFiles</b><br>Test class: stthomas.stc_research_automation.tests.ResearchRegulations<br>Test method: Verify Plagiarism and Research Regulations Files</td>
+<td></td>
+<td>3</td>
+<td>stthomas.stc_research_automation.tests.ResearchRegulations@4009e306</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.RandPEthics2021.verifyResearchRegulationsPage()'><b>verifyResearchRegulationsPage</b><br>Test class: stthomas.stc_research_automation.tests.RandPEthics2021<br>Test method: Navigate to Research and Publication Ethics 2021 page and verify title/url</td>
+<td></td>
+<td>4</td>
+<td>stthomas.stc_research_automation.tests.RandPEthics2021@63475ace</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchRegulations.verifyResearchRegulationsPage()'><b>verifyResearchRegulationsPage</b><br>Test class: stthomas.stc_research_automation.tests.ResearchRegulations<br>Test method: Navigate to  Research Regulations Page and verify Title and URL</td>
+<td></td>
+<td>3</td>
+<td>stthomas.stc_research_automation.tests.ResearchRegulations@4009e306</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.PhdRegulationsAndUo.verifyDirectorateOfAdmissionLink()'><b>verifyDirectorateOfAdmissionLink</b><br>Test class: stthomas.stc_research_automation.tests.PhdRegulationsAndUo<br>Test method: Verify link: Directorate of Admission</td>
+<td></td>
+<td>7</td>
+<td>stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.Journals.verifyJournalVolumes()'><b>verifyJournalVolumes</b><br>Test class: stthomas.stc_research_automation.tests.Journals<br>Test method: Open and verify Journal Volumes</td>
+<td></td>
+<td>52</td>
+<td>stthomas.stc_research_automation.tests.Journals@bccb269</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchRegulations.verifyCircularsAndOrdersLink()'><b>verifyCircularsAndOrdersLink</b><br>Test class: stthomas.stc_research_automation.tests.ResearchRegulations<br>Test method: Verify Circulars and Orders Page</td>
+<td></td>
+<td>3</td>
+<td>stthomas.stc_research_automation.tests.ResearchRegulations@4009e306</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.AnnualResearchReports.openAllAnnualResearchReports()'><b>openAllAnnualResearchReports</b><br>Test class: stthomas.stc_research_automation.tests.AnnualResearchReports<br>Test method: Open each Annual Research Report one by one and perform slideshow</td>
+<td></td>
+<td>32</td>
+<td>stthomas.stc_research_automation.tests.AnnualResearchReports@66d18979</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.AboutRAC.verifyPhdPageNavigation()'><b>verifyPhdPageNavigation</b><br>Test class: stthomas.stc_research_automation.tests.AboutRAC<br>Test method: Verify PhD page navigation and title</td>
+<td></td>
+<td>5</td>
+<td>stthomas.stc_research_automation.tests.AboutRAC@7c9d8e2</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchCentres.navigateToResearchCentres()'><b>navigateToResearchCentres</b><br>Test class: stthomas.stc_research_automation.tests.ResearchCentres<br>Test method: Navigate to Research Centres Page and check title/url</td>
+<td></td>
+<td>2</td>
+<td>stthomas.stc_research_automation.tests.ResearchCentres@3d34d211</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchPolicies.verifyResearchPoliciesPage()'><b>verifyResearchPoliciesPage</b><br>Test class: stthomas.stc_research_automation.tests.ResearchPolicies<br>Test method: Navigate to Research Policies Page Title and URL</td>
+<td></td>
+<td>2</td>
+<td>stthomas.stc_research_automation.tests.ResearchPolicies@43c1b556</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.RandPEthics2021.verifyBrochureLink()'><b>verifyBrochureLink</b><br>Test class: stthomas.stc_research_automation.tests.RandPEthics2021<br>Test method: Verify brochure link </td>
+<td></td>
+<td>5</td>
+<td>stthomas.stc_research_automation.tests.RandPEthics2021@63475ace</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.PhdRegulationsAndUo.verifyPdfOpeningTable1()'><b>verifyPdfOpeningTable1</b><br>Test class: stthomas.stc_research_automation.tests.PhdRegulationsAndUo<br>Test method: Verify PDF opening from table section 1</td>
+<td></td>
+<td>13</td>
+<td>stthomas.stc_research_automation.tests.PhdRegulationsAndUo@7dc0f706</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.AwardsAndFellowships.verifyPaginationControls()'><b>verifyPaginationControls</b><br>Test class: stthomas.stc_research_automation.tests.AwardsAndFellowships<br>Test method: Verify the pagination controls next, prev, dropdown, search ...</td>
+<td></td>
+<td>25</td>
+<td>stthomas.stc_research_automation.tests.AwardsAndFellowships@17f7cd29</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchProgrammes.verifyTableSection()'><b>verifyTableSection</b><br>Test class: stthomas.stc_research_automation.tests.ResearchProgrammes<br>Test method: Verify table section</td>
+<td></td>
+<td>57</td>
+<td>stthomas.stc_research_automation.tests.ResearchProgrammes@22fcf7ab</td></tr>
+<tr>
+<td title='stthomas.stc_research_automation.tests.ResearchProjects.VerifyAllDownloadLinks()'><b>VerifyAllDownloadLinks</b><br>Test class: stthomas.stc_research_automation.tests.ResearchProjects<br>Test method: Check download links under Research Projects</td>
+<td></td>
+<td>45</td>
+<td>stthomas.stc_research_automation.tests.ResearchProjects@6913c1fb</td></tr>
+</table><p>
+</body>
+</html>
