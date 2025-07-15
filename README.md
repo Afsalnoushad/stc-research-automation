@@ -116,7 +116,6 @@ mvn clean test -DsuiteXmlFile=testng-regression.xml
 ## 🙌 Author
 
 **Afsal Noushad**  
-Selenium Automation Tester  
 [GitHub Profile](https://github.com/Afsalnoushad)
 
 ---
