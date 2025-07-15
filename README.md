@@ -83,7 +83,7 @@ stc_research_automation/
 ├── pom.xml # Maven dependencies
 ├── testng-smoke.xml # Smoke test suite
 ├── testng-regression.xml # Regression test suite
-├── test-output/ # TestNG default reports + screenshots
+├── test-output/ # TestNG default reports 
 └── target/
 ```
 
