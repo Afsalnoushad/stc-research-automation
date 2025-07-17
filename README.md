@@ -140,10 +140,10 @@ This document serves as part of the pre-automation groundwork and reflects a han
 ---
 
 
-## 🙌 Author
+## 👤 About Me
 
 **Afsal Noushad**  
-[GitHub Profile](https://github.com/Afsalnoushad)
+Aspiring QA Automation Engineer passionate about delivering reliable and maintainable test solutions.
 
 ---
 
