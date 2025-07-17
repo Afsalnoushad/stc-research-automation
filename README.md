@@ -112,6 +112,33 @@ mvn clean test -DsuiteXmlFile=testng-regression.xml
 - On failure, screenshots are auto-captured using `ScreenshotUtils`.
 
 ---
+---
+
+## 🐞 Bug Report – Pre-Automation Phase
+
+Before starting automation, a **manual testing phase** was performed to analyze the Research section and uncover bugs. These findings helped structure and prioritize the automation tasks more effectively.
+
+📁 Bug report available at: `manual-docs/STC_Research_BugReport.xlsx`
+
+It includes the following details:
+
+| Column Name           | Description                                        |
+|-----------------------|----------------------------------------------------|
+| Bug ID                | Unique identifier for each issue                  |
+| Bug Title             | A short summary of the bug                        |
+| Type of Issue         | UI / Functional / Content / Navigation            |
+| Module / Page         | Page or section where the bug was found           |
+| Description of Issue  | Clear explanation of what went wrong              |
+| Steps to Reproduce    | Steps to help replicate the issue                 |
+| Expected Result       | What should ideally happen                        |
+| Actual Result         | What actually happened                            |
+| Severity              | High / Medium / Low                               |
+| Screenshot/Recording  | Attached for better understanding (if available)  |
+
+This document serves as part of the pre-automation groundwork and reflects a hands-on manual QA approach.
+
+---
+
 
 ## 🙌 Author
 
