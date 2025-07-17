@@ -112,7 +112,7 @@ mvn clean test -DsuiteXmlFile=testng-regression.xml
 - On failure, screenshots are auto-captured using `ScreenshotUtils`.
 
 ---
----
+
 
 ## 🐞 Bug Report – Pre-Automation Phase
 
