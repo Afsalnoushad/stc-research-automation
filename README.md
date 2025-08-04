@@ -133,7 +133,7 @@ It includes the following details:
 | Expected Result       | What should ideally happen                        |
 | Actual Result         | What actually happened                            |
 | Severity              | High / Medium / Low                               |
-| Screenshot/Recording  | Attached for better understanding (if available)  |
+| Screenshot/Recording  | Attached for better understanding                 |
 
 This document serves as part of the pre-automation groundwork and reflects a hands-on manual QA approach.
 
